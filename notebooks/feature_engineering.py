@@ -68,6 +68,6 @@ team_stats.columns = [
 
 print(team_stats.head())
 team_stats.to_csv(
-    "data/team_stats.csv",
+    "data/home_team_stats.csv",
     index=False
 )

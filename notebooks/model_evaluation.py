@@ -10,12 +10,12 @@ from sklearn.metrics import (
     confusion_matrix
 )
 
-X = pd.read_csv("data/features.csv")
+x = pd.read_csv("data/features.csv")
 
 y = pd.read_csv("data/target.csv")
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
+x_train, x_test, y_train, y_test = train_test_split(
+    x,
     y,
     test_size=0.2,
     random_state=42
@@ -24,11 +24,11 @@ X_train, X_test, y_train, y_test = train_test_split(
 model = KNeighborsClassifier()
 
 model.fit(
-    X_train,
+    x_train,
     y_train.values.ravel()
 )
 
-predictions = model.predict(X_test)
+predictions = model.predict(x_test)
 
 accuracy = accuracy_score(
     y_test,

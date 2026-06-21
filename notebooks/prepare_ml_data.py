@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("data/model_data.csv")
+df = pd.read_csv("data/model_data2.csv")
 def get_result(row):
 
     if row["home_score"] > row["away_score"]:
@@ -19,7 +19,9 @@ features = df[
         "home_loss_rate",
         "away_win_rate",
         "away_draw_rate",
-        "away_loss_rate"
+        "away_loss_rate",
+        "home_goal_difference",
+        "away_goal_difference"
     ]
 ]
 target = df["result"]

@@ -3,6 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
+
 x = pd.read_csv("data/features.csv")
 y = pd.read_csv("data/target.csv")
 x_train, x_test, y_train, y_test = train_test_split(
@@ -36,4 +38,11 @@ rf_accuracy = accuracy_score(
     rf_predictions
 )
 print("Random Forest Accuracy:", rf_accuracy)
+
+print(
+    classification_report(
+        y_test,
+        rf_predictions
+    )
+)
 

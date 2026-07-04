@@ -31,11 +31,11 @@ rf.fit(
 )
 joblib.dump(
     rf,
-    "data/random_forest_model.pkl"
+    "models/random_forest_model.pkl"
 )
 
 loaded_model = joblib.load(
-    "data/random_forest_model.pkl"
+    "models/random_forest_model.pkl"
 )
 print(type(loaded_model))
 

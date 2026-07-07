@@ -238,7 +238,7 @@ Machine Learning
 - Data Processing
 - Feature Engineering
 - Model Development
-- Streamlit Integration
+- Streamlit Integration and UI
 
 **Prince**
 

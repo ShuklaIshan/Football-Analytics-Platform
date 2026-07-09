@@ -281,7 +281,7 @@ This project is licensed under the MIT License.
 
 🚀 **Try the application here**
 
-https://your-streamlit-app-url.streamlit.app
+https://football-analytics-platform-yzdx8zkjqhp9pvudfw775v.streamlit.app/Match_Predictor
 
 ## 🔗 Repository
 

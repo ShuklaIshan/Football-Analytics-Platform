@@ -23,6 +23,9 @@ knn_accuracy = accuracy_score(
     knn_predictions
 )
 rf = RandomForestClassifier(
+    n_estimators=100,
+    max_depth=15,
+    min_samples_leaf=2,
     random_state=42
 )
 rf.fit(

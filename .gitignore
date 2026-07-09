@@ -55,8 +55,8 @@ dist/
 # Models
 # =====================================================
 
-# Ignore all pickle files
-*.pkl
+# Ignore only temporary files if needed
+# *.tmp
 
 # But keep our trained models
 !models/*.pkl

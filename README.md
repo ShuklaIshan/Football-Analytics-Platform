@@ -1,5 +1,10 @@
 # ⚽ Football Analytics Platform
 
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.47-red?logo=streamlit)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 An end-to-end Football Analytics Platform built using **Machine Learning**, **Python**, and **Streamlit** to analyze international football matches, predict match outcomes, and visualize football statistics through an interactive web application.
 
 > Predict. Analyze. Explore.
@@ -170,30 +175,32 @@ Prediction + Confidence
 
 ## 📸 Screenshots
 
+### Home Page
+
+![Home](assets/screenshots/home.png)
+
 ### Match Predictor
 
-> *(Add screenshot here)*
-
----
+![Predictor](assets/screenshots/predictor.png)
 
 ### Dashboard
 
-> *(Add screenshot here)*
-
----
+![Dashboard](assets/screenshots/dashboard.png)
 
 ### Player Analytics
 
-> *(Add screenshot here)*
+![Analytics](assets/screenshots/analytics.png)
 
----
+### Player Clustering
+
+![Clustering](assets/screenshots/clustering.png)
 
 ## ⚙ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Football-Analytics-Platform.git
+git clone https://github.com/ShuklaIshan/Football-Analytics-Platform.git
 ```
 
 Navigate to the project
@@ -225,27 +232,42 @@ streamlit run app/app.py
 - Player injury analysis
 - Deep Learning based prediction models
 - Match simulation
-- Dark/Light theme
 - Mobile responsive UI
 
 ---
 
+## 📂 Dataset
+
+The project uses historical international football match data
+covering nearly 50,000 matches played across multiple tournaments,
+including FIFA World Cup, continental championships,
+qualifiers and international friendlies.
+
+## 📊 Model Performance
+
+| Model | Accuracy |
+|--------|---------:|
+| K-Nearest Neighbors | 50.8% |
+| Random Forest | **53.6%** |
+
 ## 🤝 Contributors
 
-**Ishan Shukla**
+### Ishan
 
-Machine Learning
-- Data Processing
+- Machine Learning Pipeline
 - Feature Engineering
 - Model Development
-- Streamlit Integration and UI
+- Match Predictor
+- Streamlit Frontend
+- UI Design
 
-**Prince**
+### Prince
 
 - Dashboard Development
 - Player Analytics
 - Data Visualization
-- UI Components
+- Player Clustering
+- UI Design
 
 ---
 
@@ -254,5 +276,15 @@ Machine Learning
 This project is licensed under the MIT License.
 
 ---
+
+## 🌐 Live Demo
+
+🚀 **Try the application here**
+
+https://your-streamlit-app-url.streamlit.app
+
+## 🔗 Repository
+
+https://github.com/ShuklaIshan/Football-Analytics-Platform
 
 ## ⭐ If you found this project interesting, consider giving it a star!
